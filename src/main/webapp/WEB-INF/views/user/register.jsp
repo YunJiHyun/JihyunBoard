@@ -20,7 +20,7 @@
     	        success: function(msg) {  
     	        	alert("success")//성공시 이 함수를 호출한다.
     	       }
-    	    }); */
+    	    }); 
     	 };  */
     	 
     	
@@ -40,6 +40,9 @@
 		Password 확인 : <input type="text"  id="passwordCheck" name="userPw"/><br/>
 		
 		<hr/>
+		
+		
+		<!-- lable for를 이용해보기 -->
 		
 		이름 : <input type="text" id="userName"name="userName"/><br/>
 		학과 : <select id="userMajor" name="userMajor">

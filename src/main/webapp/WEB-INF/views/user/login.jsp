@@ -9,7 +9,7 @@
 </head>
 <body>
 	<h1>로그인</h1>
-    	<form name="loginForm" method="post">
+    	<form name="loginForm" method="post" action="${path }/user/loginCheck">
         	<table border="1" width="400px">
             	<tr>
                 	<td>아이디</td>
